@@ -1,0 +1,12 @@
+# Bỏ qua thư mục node_modules
+node_modules/
+
+# Bỏ qua các tệp log
+*.log
+
+# Bỏ qua thư mục build
+build/
+
+# Bỏ qua các thư mục hệ thống
+.DS_Store
+.env
