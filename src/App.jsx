@@ -10,9 +10,9 @@ import { WagmiProvider } from 'wagmi'
 import { arbitrum, mainnet, bsc } from 'wagmi/chains'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import CampainDetail from './pages/campaign';
-import CampaignListNew from './pages/CampaignListNew'; // Ensure the correct import for your components
-import CampaignListRun from './pages/CampaignListRun';
-import CampaignListDone from './pages/CampaignListDone';
+import CampaignListNew from './pages/campaignListNew'; // Ensure the correct import for your components
+import CampaignListRun from './pages/campaignListRun';
+import CampaignListDone from './pages/campaignListDone';
 
 // 0. Setup queryClient
 const queryClient = new QueryClient()
